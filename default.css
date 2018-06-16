@@ -6,27 +6,27 @@ html,body {
 	background-color: #FAFAFA;
 }
 #header {
-	height: 2.5em;
-	padding: 0.5em 1em;
+	height: 2.7em;
+	padding: 0.5em 0 0 1em;
+	overflow: auto;
 	background-color: #F5F5F5;
 	border-bottom: 1px solid #E5E5E5
 }
-#header div{
-	overflow: auto;
+#header *{
+	padding:0;
+	line-height: 1.05em
 }
 #cont {
 	margin: 0.5em 0 0 1em;
-	height: calc(100% - 0.5em - ( 2.5em + 0.5em * 2 + 1px ) );
+	height: calc(100% - 0.5em - ( 2.7em + 0.5em + 1px ) );
 	overflow: auto;
 }
 
 #header ul{
 	margin: 0 0 0.2em 0;
-	padding: 0;
 }
 #header li {
 	margin: 0 1em 0 0;
-	padding: 0;
 	display: inline-block;
 }
 
